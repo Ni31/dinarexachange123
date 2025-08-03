@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* Orange color palette */
+  --color-orange: #FF7B25;
+  --color-orange-dark: #E06C1E;
+  
+  /* Blue color palette */
+  --color-blue: #2563EB;
+  --color-blue-dark: #1D4ED8;
+}
