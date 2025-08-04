@@ -1,4 +1,4 @@
-"use client";
+use client";
 
 import { useState } from "react";
 import { usePathname } from "next/navigation";
@@ -12,6 +12,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import { CredentialsProvider } from "next-auth/providers/credentials";
 
 const navigation = [
   { name: "Dashboard", href: "/admin/dashboard", icon: HomeIcon },
