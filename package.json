@@ -15,8 +15,9 @@
     "seed-admin:production": "NODE_ENV=production node scripts/seed-admin-data.js",
     "test-models": "node tests/model-integration.test.js",
     "test:production": "NODE_ENV=production node tests/model-integration.test.js",
-    "deploy:vercel": "vercel --prod",
-    "deploy:preview": "vercel",
+    "prepare:production": "node scripts/prepare-production.js",
+    "deploy:vercel": "node scripts/deploy-vercel.js",
+    "deploy:preview": "node scripts/deploy-vercel.js --preview",
     "deploy:build": "npm run lint && npm run build",
     "vercel-build": "next build",
     "health-check": "node scripts/health-check.js"

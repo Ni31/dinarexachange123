@@ -7,6 +7,8 @@ const nextConfig = {
   // Output configuration for Vercel
   output: 'standalone',
   
+
+  
   // Image optimization for Vercel
   images: {
     remotePatterns: [
